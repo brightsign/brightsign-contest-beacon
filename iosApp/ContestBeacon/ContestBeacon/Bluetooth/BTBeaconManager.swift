@@ -29,7 +29,7 @@ class BTBeaconManager: NSObject, CLLocationManagerDelegate {
     static let sharedInstance = BTBeaconManager()
     
     static let bsIdentifier = "BrightSign"
-    static let bsLocationUUID = UUID(uuidString: "BE760858-9DE9-4685-BDD2-C75A1EF15DC8")!
+    static let bsLocationUUID = UUID(uuidString: "946853fb-69dc-42a1-96c6-e23dea105e43")!
     
     fileprivate var locationManager: CLLocationManager?
     

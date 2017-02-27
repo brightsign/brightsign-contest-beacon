@@ -91,7 +91,7 @@ class ContestManager: NSObject {
     // Singleton
     static let sharedInstance = ContestManager()
     
-    let contestServerUrlBase = ""      // TODO: Server URL needs to be added
+    let contestServerUrlBase = "https://www.myCmpany.com/ContestServer/"      // TODO: Server URL needs to be modified
     
     var participant = Participant()
     

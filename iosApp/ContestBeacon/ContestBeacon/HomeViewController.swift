@@ -70,7 +70,7 @@ class HomeViewController: UIViewController, BTBeaconManagerDelegate {
             actionButton.setTitle("Edit Contact Info", for: UIControlState())
         } else {
             if currentBeaconProximity == .unknown {
-                currentMessage.text = "Please provide your contact information so we can enter you to win the daily prize from BrightSign at InfoComm 2016!"
+                currentMessage.text = "Please provide your contact information so we can enter you to win the daily prize from BrightSign!"
             } else {
                 currentMessage.text = "Hello! You are connected to BrightBeacon™. Please provide your contact information so we can enter you to win the daily prize!"
             }
